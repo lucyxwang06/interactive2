@@ -1,9 +1,25 @@
+body{
+	background-color: white;
+}
+
 .main{
 	text-align: center;
 }
 
 h1{
-	font: Helvetica;
-	color: pink;
-	font-size: 30pt;
+	font-family: Avenir;
+	font-style: normal;
+	color: #d8cbeb;
+	font-size: 40pt;
+
+}
+
+a{
+	color:black;
+	font-family: Avenir;
+
+}
+
+a:visited{
+	color: #56595c;
 }
