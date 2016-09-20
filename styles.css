@@ -78,6 +78,12 @@ a{
 
 
 
+a:hover{
+	color: #d99ce1;
+}
+
+
+
 a:visited{
 	color: #d99ce1;
 }
