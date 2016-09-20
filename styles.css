@@ -74,12 +74,9 @@ a{
 	color:black;
 	font-family: Avenir;
 	font-variant: small-caps;
-
 }
 
-a:hover{
-	color: #d99ce1;
-}
+
 
 a:visited{
 	color: #d99ce1;
