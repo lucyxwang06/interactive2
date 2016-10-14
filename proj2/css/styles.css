@@ -1,0 +1,10 @@
+body{
+	
+}
+
+#gif{
+	transform:scale(.35,.35);
+	position: absolute;
+	left: -1185px;
+	top: -1370px;
+}
