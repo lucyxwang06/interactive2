@@ -2498,42 +2498,6 @@
   animation-name: rotateInUpRight;
 }
 
-@-webkit-keyframes rotateOut1 {
-  from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    opacity: 1;
-  }
-
-  to {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 720deg);
-    transform: rotate3d(0, 0, 1, 720deg);
-    opacity: 1;
-  }
-}
-
-@keyframes rotateOut1 {
-  from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    opacity: 1;
-  }
-
-  to {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 720deg);
-    transform: rotate3d(0, 0, 1, 720deg);
-    opacity: 1;
-  }
-}
-
-.rotateOut1 {
-  -webkit-animation-name: rotateOut1;
-  animation-name: rotateOut1;
-}
 
 @-webkit-keyframes rotateOut {
   from {
@@ -2547,7 +2511,7 @@
     transform-origin: center;
     -webkit-transform: rotate3d(0, 0, 1, 360deg);
     transform: rotate3d(0, 0, 1, 360deg);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -2563,7 +2527,7 @@
     transform-origin: center;
     -webkit-transform: rotate3d(0, 0, 1, 360deg);
     transform: rotate3d(0, 0, 1, 360deg);
-    opacity: 1;
+    opacity: 0;
   }
 }
 

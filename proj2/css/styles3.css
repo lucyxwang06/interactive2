@@ -63,14 +63,13 @@ body{
 }
 
 #balllink{
-	background: ;
 	height: 80px;
 	width: 80px;
 	float: left;
 	position: absolute;
 	left: 80%;
 	top: 76%;
-	animation:rotateOut1 2s infinite;
+	animation: rotateOut 2s infinite;
 	
 }
 
