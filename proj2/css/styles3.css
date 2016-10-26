@@ -1,40 +1,41 @@
 body{
 	background:#DE6100;
 	margin: auto;
+	width: 100%;
 }
 
 #move{
-	width: 90%;
+	width: 85%;
 	height: 100%;
 	margin-left: 8%;
 
 }
 
 #pass{
-	margin-left: 23%;
-	width: 60%;
+	margin-left: 29%;
+	width: 55%;
 	margin-top: 1%;
 	float: left;
 
 }
 
 #me{
-	margin-left: 16%;
+	margin-left: 21%;
 	margin-top: 0%;
-	width: 24%;
+	width: 25%;
 	float: left;
 }
 
 #the{
 	margin-top: 0%;
-	width: 40%;
+	width: 38%;
 	float: left;
 }
 
 #rock{
-	margin-left: 23%;
+	margin-left: 28%;
 	margin-top: 0%;
-	width: 100%;
+	width: 70%;
 	float: left;
 }
 
@@ -59,6 +60,78 @@ body{
 	height: 2.2in;
 	width: .1in;
 	float: left;
+}
+
+#balllink{
+	background: ;
+	height: 80px;
+	width: 80px;
+	float: left;
+	position: absolute;
+	left: 80%;
+	top: 76%;
+	animation:rotateOut1 2s infinite;
+	
+}
+
+.clickcircle{
+	background: black;
+	margin: auto;
+	border-radius:.8in; 
+	width:67px;
+	height:67px;
+	position: absolute;
+	border-top: 3.5pt solid #DE6100;
+	border-left: 3.5pt solid #DE6100;  
+	border-right: 3.5pt solid #DE6100;
+	border-bottom: 3.5pt solid #DE6100;
+	 
+}
+
+.ballline1{
+	height: 67px;
+	position: absolute;
+	width:3.1pt;
+	background: #DE6100;
+	left: 47%;
+}
+
+.ballline2{
+	height: 3.1pt;
+	position: absolute;
+	width:67px;
+	background: #DE6100;
+	top: 46%;
+}
+
+
+
+.clickcircle1{
+	margin: auto;
+	border-radius:.5in 1.2in 1.2in .5in; 
+	width:15px;
+	height:40px;
+	position: absolute;
+	border-top: 3.5pt solid #DE6100;
+	border-left: 3.5pt solid transparent;  
+	border-right: 3.5pt solid #DE6100;
+	border-bottom: 3.5pt solid #DE6100;
+	top: 14%;
+	left: -2.5%;
+}
+
+.clickcircle2{
+	margin: auto;
+	border-radius:1.2in .5in .5in 1.2in; 
+	width:15px;
+	height:40px;
+	position: absolute;
+	border-top: 3.5pt solid #DE6100;
+	border-left: 3.5pt solid  #DE6100;  
+	border-right: 3.5pt solid transparent;
+	border-bottom: 3.5pt solid #DE6100;
+	top: 14%;
+	left: 69%;
 }
 
 
@@ -356,7 +429,7 @@ body{
 
 
 .hrectangle1{
-	left: 88px;
+	left: 89px;
 	top: -200px;
 	position: relative;
 	width: .35in;
@@ -458,7 +531,7 @@ body{
 .mrectangle{
 	z-index: 1;
 	background: #DE6100;
-	left: 88px;
+	left: 89px;
 	top: -200px;
 	position: relative;
 	width: .35in;
@@ -646,7 +719,7 @@ body{
 
 .ssquare{
 	position: relative;
-	top: -139px;
+	top: -140px;
 	left: 66px;
 	width: .35in;
 	height: .33in;
@@ -658,7 +731,7 @@ body{
 
 .ssquare2{
 	position: relative;
-	top: -40px;
+	top: -39px;
 	left: 22px;
 	width: .35in;
 	height: .33in;
@@ -669,7 +742,7 @@ body{
 }
 
 .sline{
-	top: -198px;
+	top: -199px;
 	left: 10px;
 	width: 100px;
 	height: 6.8pt;
@@ -678,7 +751,7 @@ body{
 }
 
 .sline2{
-	top: -99px;
+	top: -98px;
 	left: 30px;
 	width: 100px;
 	height: 6.8pt;
