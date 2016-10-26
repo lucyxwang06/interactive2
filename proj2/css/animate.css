@@ -368,21 +368,20 @@
 }
 
 @-webkit-keyframes shake {
-  from, to {
+ from, to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
+  20%, 60% {
+    -webkit-transform: translate3d(-20px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
 
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
+  40%,80% {
+    -webkit-transform: translate3d(20px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
-}
 
 @keyframes shake {
   from, to {
@@ -390,13 +389,13 @@
     transform: translate3d(0, 0, 0);
   }
 
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
+  20%, 60% {
+    -webkit-transform: translate3d(-20px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
 
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
+  40%,80% {
+    -webkit-transform: translate3d(20px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
 }
@@ -2499,7 +2498,7 @@
   animation-name: rotateInUpRight;
 }
 
-@-webkit-keyframes rotateOut {
+@-webkit-keyframes rotateOut1 {
   from {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -2509,13 +2508,13 @@
   to {
     -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 200deg);
-    transform: rotate3d(0, 0, 1, 200deg);
+    -webkit-transform: rotate3d(0, 0, 1, 720deg);
+    transform: rotate3d(0, 0, 1, 720deg);
     opacity: 1;
   }
 }
 
-@keyframes rotateOut {
+@keyframes rotateOut1 {
   from {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -2532,11 +2531,11 @@
 }
 
 .rotateOut1 {
-  -webkit-animation-name: rotateOut;
+  -webkit-animation-name: rotateOut1;
   animation-name: rotateOut1;
 }
 
-@-webkit-keyframes rotateOut1 {
+@-webkit-keyframes rotateOut {
   from {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -2552,7 +2551,7 @@
   }
 }
 
-@keyframes rotateOut1 {
+@keyframes rotateOut {
   from {
     -webkit-transform-origin: center;
     transform-origin: center;

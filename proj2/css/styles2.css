@@ -1,6 +1,7 @@
 body{
 	background:#DE6100;
 	margin: auto;
+	cursor:url();
 
 }
 
@@ -68,7 +69,8 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	
+	animation:shake 1.4s 3;
+	animation-delay:.5s;
 
 }
 
