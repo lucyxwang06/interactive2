@@ -2536,6 +2536,44 @@
   animation-name: rotateOut;
 }
 
+
+@-webkit-keyframes rotate1 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 1, 0, 1080deg);
+    transform: rotate3d(0, 1, 0, 1080deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate1 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 1, 0, 1080deg);
+    transform: rotate3d(0, 1, 0, 1080deg);
+    opacity: 1;
+  }
+}
+
+.rotate1 {
+  -webkit-animation-name: rotate1;
+  animation-name: rotate1;
+}
+
 @-webkit-keyframes rotateOutDownLeft {
   from {
     -webkit-transform-origin: left bottom;
