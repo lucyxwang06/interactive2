@@ -69,8 +69,7 @@ body{
 	position: absolute;
 	left: 80%;
 	top: 76%;
-	animation: rotateOut 2s infinite;
-	
+	animation:rotateOut 2s infinite;	
 }
 
 .clickcircle{
