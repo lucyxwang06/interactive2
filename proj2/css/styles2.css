@@ -42,7 +42,7 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation:bounce .6s 3;
+	animation:bounce .6s 6;
 	animation-delay:.5s;
 
 }
@@ -57,7 +57,7 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation:rotate1 1.5s 3;
+	animation:rotate1 1.5s 5;
 	animation-delay:.5s;
 }
 
@@ -102,7 +102,7 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation:shake 1.4s 3;
+	animation:shake 1.4s 5;
 	animation-delay:.5s;
 
 }
@@ -114,10 +114,45 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation-name:bounce4;
-	animation-duration:.7s;
-	animation-iteration:infinite;
+	animation:flip 1.4s 5;
+	animation-delay:.5s;
+}
 
+@keyframes flip {
+  from {
+    -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(500px) scale3d(.85, .85, .85);
+    transform: perspective(500px) scale3d(.85, .85, .85);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(500px);
+    transform: perspective(500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
 }
 
 #a5{
@@ -127,10 +162,22 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation-name:bounce5;
-	animation-duration:.7s;
-	animation-iteration:infinite;
+	animation:slideOutUp 1.2s 5;
+	animation-delay:.5s;
 
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: visible;
+    -webkit-transform: translate3d(0, -40%, 0);
+    transform: translate3d(0, -40%, 0);
+  }
 }
 
 #a6{
@@ -140,10 +187,22 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation-name:bounce6;
-	animation-duration:.7s;
-	animation-iteration:infinite;
+	animation:rollIn 2s 4;
+	animation-delay:.5s;
+}
 
+@keyframes rollIn {
+  from {
+    opacity: 1;
+    -webkit-transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -720deg);
+    transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -720deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 #a7{
@@ -153,11 +212,49 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation-name:bounce7;
-	animation-duration:.7s;
-	animation-iteration:infinite;
+	animation:wobble 1.2s 5;
+	animation-delay:.5s;
 
 }
+
+
+@keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(25%, 0, 0) rotate3d(0, 0, 1, 10deg);
+    transform: translate3d(25%, 0, 0) rotate3d(0, 0, 1, 10deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -7deg);
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -7deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, 10deg);
+    transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, 10deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -8deg);
+    transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -8deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
 
 #a8{
 	background: ;
@@ -166,21 +263,8 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation:bounce2 1.2s 3;
+	animation:bounce2 1.2s 5;
 	animation-delay:.5s;
-}
-
-#a9{
-	background: ;
-	margin-left: 25px;
-	margin-top: 0px;
-	width: 120px;
-	height: 170px;
-	float: left;
-	animation-name:bounce9;
-	animation-duration:.7s;
-	animation-iteration:infinite;
-
 }
 
 #a10{
@@ -190,11 +274,67 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation-name:bounce10;
-	animation-duration:.7s;
-	animation-iteration:infinite;
+	animation:rotate2 .7s 7;
+	animation-delay:.5s;
 
 }
+
+@-webkit-keyframes rotate2 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(1, 0, 0, 1440deg);
+    transform: rotate3d(1, 0, 0, 1440deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(1, 0, 0, 1440deg);
+    transform: rotate3d(1, 0, 0, 1440deg);
+    opacity: 1;
+  }
+}
+
+#a9{
+	background: ;
+	margin-left: 25px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:bounce3 1.3s 5;
+	animation-delay:.5s;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 1;
+    -webkit-transform: scale3d(.2, .2, .2);
+    transform: scale3d(.2, .2, .2);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
 
 #al{
 	margin: left;
@@ -350,7 +490,7 @@ body{
 	top: -303px;
 	left: 88px;
 	width: .35in;
-	height: .33in;
+	height: 33px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right: 7pt solid black;
@@ -359,10 +499,10 @@ body{
 
 .csquare2{
 	position: relative;
-	top: -206px;
+	top: -207px;
 	left: 88px;
 	width: .35in;
-	height: .33in;
+	height: 33px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right: 7pt solid black;
@@ -870,7 +1010,7 @@ body{
 .vrectangle1{
 	position: relative;
 	width: .35in;
-	height: 113px;
+	height: 138px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
@@ -882,7 +1022,7 @@ body{
 	left: 43px;
 	top: -10px;
 	width: 36px;
-	height: 61px;
+	height: 36px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
@@ -894,7 +1034,7 @@ body{
 	left: 88px;
 	position: relative;
 	width: .35in;
-	height: 113px;
+	height: 137px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
@@ -1384,30 +1524,43 @@ body{
 	border-bottom: 7pt solid black;
 }
 
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
+.comma{
+	left: 44px;
+	top: 148px;
+	border-radius:0in 0in 3in 0in; 
+	width:.35in;
+	height:.35in;
+	position: relative;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
 }
 
-@-webkit-keyframes flash {
-  from, 50%, to {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
+.quota{
+	border-radius:0in 0in 3in 0in; 
+	width:.35in;
+	height:.35in;
+	position: relative;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
 }
 
-@keyframes flash {
-  from, 50%, to {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
+.quota1{
+	top: -0px;
+	left: .7in;
+	border-radius:0in 0in 3in 0in; 
+	width:.35in;
+	height:.35in;
+	position: absolute;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
 }
 

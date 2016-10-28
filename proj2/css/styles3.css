@@ -1,43 +1,184 @@
 body{
 	background:#DE6100;
 	margin: auto;
+	width: 6400px;
+	overflow-y: hidden;
+
+}
+
+.container{
+	background:;
+	height: 653px;
+	width: 1280px;
+	float: left;
+}
+
+.containerd{
+	background:;
+	height: 653px;
+	width: 1580px;
+	float: left;
+}
+
+.container1{
+	background: green;
+	height: 653px;
+	width: 1280px;
+	float: left;
+}
+
+#ain1{
+	margin-top: 350px;
+	transform:scale(1);
+	margin-left: 120px;
+	width: 145px;
+	height: 200px;
+	float: left;
+
+}
+
+#ain{
+	margin-top: 350px;
+	transform:scale(1);
+	margin-left: 15px;
+	width: 145px;
+	height: 200px;
+	float: left;
+
+
+}
+
+
+#aini{
+	margin-top: 350px;
+	transform:scale(1);
+	margin-left:15px;
+	width: 75px;
+	height: 200px;
+	float: left;
+
+
+}
+
+#ain1p{
+	margin-top: 220px;
+	transform:scale(1.5);
+	margin-left: 255px;
+	width: 145px;
+	height: 200px;
+	float: left;
+
+}
+
+#ainp{
+	z-index: 1;
+	background:;
+	margin-top: 220px;
+	transform:scale(1.5);
+	margin-left: 95px;
+	width: 145px;
+	height: 200px;
+	float: left;
+
+}
+
+
+#ainip{
+	margin-top: 220px;
+	transform:scale(1.5);
+	margin-left:62px;
+	width: 55px;
+	height: 200px;
+	float: left;
+
+
+}
+
+#ain1d{
+	margin-top: 400px;
+	transform:scale(.7);
+	margin-left: 250px;
+	width: 100px;
+	height: 200px;
+	float: left;
+
+}
+
+#aind{
+	z-index: 1;
+	background:;
+	margin-top: 400px;
+	transform:scale(.7);
+	margin-left: 10px;
+	width: 100px;
+	height: 200px;
+	float: left;
+
+}
+
+
+#dribble{
+	position: absolute;
 	width: 100%;
-}
-
-#move{
-	width: 85%;
 	height: 100%;
-	margin-left: 8%;
-
+	animation:bounce4 .8s 3;
+	animation-delay:.5s;
 }
 
-#pass{
-	margin-left: 29%;
-	width: 55%;
-	margin-top: 1%;
-	float: left;
-
+#pivot{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	animation:flip 1.5s 2;
+	animation-delay:.5s;
 }
 
-#me{
-	margin-left: 22%;
-	margin-top: 0%;
-	width: 23%;
-	float: left;
+@keyframes flip {
+  from {
+    -webkit-transform: perspective(1700px) rotate3d(0, 1, 0, 0deg);
+    transform: perspective(1700px) rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  20% {
+    -webkit-transform: perspective(1700px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, 45deg);
+    transform: perspective(1700px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, 45deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  30% {
+    -webkit-transform: perspective(1700px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, 0deg);
+    transform: perspective(1700px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+
+  50% {
+    -webkit-transform: perspective(1700px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -45deg);
+    transform: perspective(1700px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -45deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  70% {
+    -webkit-transform: perspective(1700px) scale3d(1, 1, 1);
+    transform: perspective(1700px) scale3d(1, 1, 1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(1700px);
+    transform: perspective(1700px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
 }
 
-#the{
-	margin-top: 0%;
-	width: 35%;
-	float: left;
-}
 
-#rock{
-	margin-left: 29%;
-	margin-top: 0%;
-	width: 70%;
-	float: left;
-}
 
 #a{
 	transform:scale(.7);
@@ -66,7 +207,7 @@ body{
 	height: 80px;
 	width: 80px;
 	float: left;
-	position: absolute;
+	position: relative;
 	left: 80%;
 	top: 76%;
 	animation:rotateOut 2s infinite;	
@@ -110,7 +251,7 @@ body{
 	border-radius:.8in; 
 	width:67px;
 	height:67px;
-	position: absolute;
+	position:relative;
 	border-top: 3.5pt solid #DE6100;
 	border-left: 3.5pt solid #DE6100;  
 	border-right: 3.5pt solid #DE6100;
@@ -120,15 +261,15 @@ body{
 
 .ballline1{
 	height: 67px;
-	position: absolute;
+	position: relative;
 	width:3.1pt;
 	background: #DE6100;
-	left: 47%;
+	left: 47.5%;
 }
 
 .ballline2{
 	height: 3.1pt;
-	position: absolute;
+	position: relative;
 	width:67px;
 	background: #DE6100;
 	top: 46%;
@@ -141,7 +282,7 @@ body{
 	border-radius:.5in 1.2in 1.2in .5in; 
 	width:15px;
 	height:40px;
-	position: absolute;
+	position: relative;
 	border-top: 3.5pt solid #DE6100;
 	border-left: 3.5pt solid transparent;  
 	border-right: 3.5pt solid #DE6100;
@@ -155,7 +296,7 @@ body{
 	border-radius:1.2in .5in .5in 1.2in; 
 	width:15px;
 	height:40px;
-	position: absolute;
+	position: relative;
 	border-top: 3.5pt solid #DE6100;
 	border-left: 3.5pt solid  #DE6100;  
 	border-right: 3.5pt solid transparent;
@@ -344,6 +485,18 @@ body{
 }
 
 .drectangle{
+	z-index: 1;
+	position: relative;
+	width: .35in;
+	height: 1.9in;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+}
+
+.irectangle{
+	left: 8px;
 	z-index: 1;
 	position: relative;
 	width: .35in;
@@ -586,6 +739,7 @@ body{
 
 
 .ocircle{
+	z-index: -1;
 	left: -30px;
 	top: -0px;
 	position: absolute;
@@ -600,7 +754,7 @@ body{
 }
 
 .cover{
-	
+	z-index: 0;
 	position: relative;
 	background: #DE6100;
 	height: 1.9in;
@@ -610,6 +764,7 @@ body{
 }
 
 .cover1{
+	z-index: 0;
 	position: relative;
 	background: #DE6100;
 	height: 1.9in;
@@ -802,7 +957,7 @@ body{
 
 .trectangle2{
 	left: 44px;
-	top: -51px;
+	top: -52px;
 	position: relative;
 	width: .35in;
 	height: 1.9in;
@@ -823,7 +978,7 @@ body{
 .vrectangle1{
 	position: relative;
 	width: .35in;
-	height: 113px;
+	height: 137px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
@@ -833,9 +988,9 @@ body{
 .vrectangle2{
 	position: relative;
 	left: 43px;
-	top: -10px;
+	top: -9px;
 	width: 36px;
-	height: 61px;
+	height: 36px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
@@ -843,11 +998,25 @@ body{
 }
 
 .vrectangle3{
+	z-index: 1;
 	top: -210px;
 	left: 88px;
 	position: relative;
 	width: .35in;
 	height: 113px;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right:7pt solid black;
+	border-bottom: 7pt solid black;
+}
+
+.vrectangle4{
+	z-index: 1;
+	top: -252px;
+	left: -232px;
+	position: relative;
+	width: .35in;
+	height: 137px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
