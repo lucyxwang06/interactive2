@@ -187,7 +187,7 @@ body{
 	width: 120px;
 	height: 170px;
 	float: left;
-	animation:rollIn 2s 4;
+	animation:rollIn 1.7s 4;
 	animation-delay:.5s;
 }
 
@@ -422,7 +422,7 @@ body{
 }
 
 .bscircle{
-	top: -2.09in;
+	top: -2.11in;
 	border-radius:.8in; 
 	width:1.27in;
 	height:1.27in;
@@ -435,7 +435,7 @@ body{
 }
 
 .bscircle2{
-	top: -2.92in;
+	top: -2.9in;
 	border-radius:.8in; 
 	width:1.27in;
 	height:1.27in;
@@ -735,7 +735,7 @@ body{
 }
 
 .mcircle{
-	top: -400px;
+	top: -402px;
 	border-radius:.8in; 
 	width:1.27in;
 	height:1.27in;
@@ -867,7 +867,7 @@ body{
 	top: -705px;
 	z-index: 1;
 	position: relative;
-	width: .635in;
+	width: .62in;
 	height:.35in;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  

@@ -1,7 +1,7 @@
 body{
 	background:#DE6100;
 	margin: auto;
-	width: 6400px;
+	width: 5420px;
 	overflow-y: hidden;
 
 }
@@ -21,7 +21,7 @@ body{
 }
 
 .container1{
-	background: green;
+	
 	height: 653px;
 	width: 1280px;
 	float: left;
@@ -116,6 +116,38 @@ body{
 
 }
 
+#ain1a{
+	margin-top: 230px;
+	transform:scale(2.3);
+	margin-left: 90px;
+	width: 140px;
+	height: 200px;
+	float: left;
+
+}
+
+#aina{
+	background:;
+	margin-top: 230px;
+	transform:scale(2.3);
+	margin-left: 189px;
+	width: 140px;
+	height: 200px;
+	float: left;
+
+}
+
+#ain2a{
+	background:;
+	margin-top: 230px;
+	transform:scale(2.3);
+	margin-left: 168px;
+	width: 140px;
+	height: 200px;
+	float: left;
+
+}
+
 
 #dribble{
 	position: absolute;
@@ -204,14 +236,17 @@ body{
 }
 
 #balllink{
-	height: 80px;
-	width: 80px;
+	height: 321px;
+	width: 321px;
 	float: left;
 	position: relative;
-	left: 80%;
-	top: 76%;
+	left: 25.7%;
+	top: -50.5%;
 	animation:rotateOut 2s infinite;	
+
+	
 }
+animation:rotateOut 2s infinite;	
 
 @-webkit-keyframes rotateOut {
   from {
@@ -246,63 +281,71 @@ body{
 }
 
 .clickcircle{
-	background: black;
+	top:122px;
+	transform:scale(4.17);
+	background: #DE6100;
 	margin: auto;
-	border-radius:.8in; 
+	border-radius:1in; 
 	width:67px;
 	height:67px;
 	position:relative;
-	border-top: 3.5pt solid #DE6100;
-	border-left: 3.5pt solid #DE6100;  
-	border-right: 3.5pt solid #DE6100;
-	border-bottom: 3.5pt solid #DE6100;
+	border-top: 3.75pt solid black;
+	border-left: 3.75pt solid black;  
+	border-right: 3.75pt solid black;
+	border-bottom: 3.75pt solid black;
 	 
 }
 
 .ballline1{
-	height: 67px;
+	transform:scale(1);
+	height: 70px;
 	position: relative;
-	width:3.1pt;
-	background: #DE6100;
-	left: 47.5%;
+	width:3.8pt;
+	background: black;
+	top: -2px;
+	left: 45.5%;
 }
 
 .ballline2{
-	height: 3.1pt;
+	transform:scale(1);
+	height: 4pt;
 	position: relative;
-	width:67px;
-	background: #DE6100;
-	top: 46%;
+	width:69px;
+	background: black;
+	top: -57%;
+	left: -1px;
 }
 
 
 
 .clickcircle1{
+	transform:scale(1);
 	margin: auto;
-	border-radius:.5in 1.2in 1.2in .5in; 
-	width:15px;
-	height:40px;
+	border-radius:.6in .58in .58in .6in; 
+	width:10px;
+	height:41px;
 	position: relative;
-	border-top: 3.5pt solid #DE6100;
-	border-left: 3.5pt solid transparent;  
-	border-right: 3.5pt solid #DE6100;
-	border-bottom: 3.5pt solid #DE6100;
-	top: 14%;
-	left: -2.5%;
+	border-top: 3.8pt solid black;
+	border-left: 3.8pt solid transparent;  
+	border-right: 3.8pt solid black;
+	border-bottom: 3.8pt solid black;
+	top: -68px;
+	left: -24px;
 }
 
 .clickcircle2{
+	transform:scale(1);
 	margin: auto;
-	border-radius:1.2in .5in .5in 1.2in; 
-	width:15px;
-	height:40px;
+	border-radius:.58in .6in .6in .58in; 
+	width:10px;
+	height:41px;
 	position: relative;
-	border-top: 3.5pt solid #DE6100;
-	border-left: 3.5pt solid  #DE6100;  
-	border-right: 3.5pt solid transparent;
-	border-bottom: 3.5pt solid #DE6100;
-	top: 14%;
-	left: 69%;
+	border-top: 3.8pt solid black;
+	border-left: 3.8pt solid black;  
+	border-right: 3.8pt solid transparent;
+	border-bottom: 3.8pt solid black;
+	top: -119px;
+	left: 25px;
 }
 
 
@@ -374,7 +417,7 @@ body{
 }
 
 .bscircle{
-	top: -2.09in;
+	top: -2.11in;
 	border-radius:.8in; 
 	width:1.27in;
 	height:1.27in;
@@ -387,7 +430,7 @@ body{
 }
 
 .bscircle2{
-	top: -2.92in;
+	top: -2.9in;
 	border-radius:.8in; 
 	width:1.27in;
 	height:1.27in;
@@ -936,7 +979,7 @@ body{
 }
 
 .sline2{
-	top: -98px;
+	top: -97px;
 	left: 30px;
 	width: 100px;
 	height: 6.8pt;
