@@ -23,8 +23,10 @@ body{
 }
 
 
+
+}
+
 #ain{
-	background: ;
 	transform:scale(.5);
 	margin-left: 0px;
 	width: 140px;
@@ -1254,10 +1256,10 @@ body{
 
 .twocircle{
 	top: -52px;
-	left: 65px;
+	left: 52px;
 	border-radius:0in 3in 3in 0in; 
-	width:56.4px;
-	height:1.27in;
+	width:69.6px;
+	height:139.2px;
 	position: relative;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
@@ -1267,9 +1269,9 @@ body{
 }
 
 .tworectangle2{
-	top: -192px;
+	top: -209px;
 	position: relative;
-	width: 56px;
+	width: 42px;
 	height:.35in;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
@@ -1278,7 +1280,7 @@ body{
 }
 
 .twoline{
-	top: -201px;
+	top: -218px;
 	left: 27px;
 	width: 100px;
 	height: 6.8pt;

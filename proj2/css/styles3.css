@@ -1,46 +1,108 @@
 body{
 	background:#DE6100;
 	margin: auto;
-	width: 5420px;
-	overflow-y: hidden;
+	width: 9600px;
+	overflow-y:hidden ;
 
 }
 
+audio{
+	display: none;
+}
+
+.cheer{
+	width: 700px;
+	height: 653px;
+	float: left;
+	background: ;
+}
+
 .container{
-	background:;
+	background: ;
+	height: 653px;
+	width: 1280px;
+	float: left;
+}
+
+.containerp{
+	margin-right: 50px;
+	background: ;
+	left: 255px;
 	height: 653px;
 	width: 1280px;
 	float: left;
 }
 
 .containerd{
-	background:;
-	height: 653px;
-	width: 1580px;
-	float: left;
-}
-
-.container1{
-	
+	background: ;
 	height: 653px;
 	width: 1280px;
 	float: left;
 }
 
+.container1{
+	margin-left: 440px;
+	background: ;
+	height: 653px;
+	width: 1280px;
+	float: left;
+}
+
+.containers1{
+	margin-left: 3%;
+	background:;
+	height: 653px;
+	width: 980px;
+	float: left;
+}
+
+.containers2{
+	margin-left: .4%;
+	background:;
+	height: 653px;
+	width: 580px;
+	float: left;
+}
+
 #ain1{
-	margin-top: 350px;
 	transform:scale(1);
 	margin-left: 120px;
 	width: 145px;
 	height: 200px;
 	float: left;
 
+
 }
 
+
+#ainc{
+	background: ;
+	transform:scale(.4);
+	width: 140px;
+	height: 200px;
+	float: left;
+	}
+
+
+
+#aincs{
+	background: ;
+	width: 100px;
+	height: 20px;
+	float: left;
+	}
+
+
+#aincs2{
+	background: ;
+	width: 700px;
+	height: 20px;
+	float: left;
+	}
+
 #ain{
-	margin-top: 350px;
 	transform:scale(1);
-	margin-left: 15px;
+	margin-left: 1.2%;
 	width: 145px;
 	height: 200px;
 	float: left;
@@ -50,9 +112,8 @@ body{
 
 
 #aini{
-	margin-top: 350px;
 	transform:scale(1);
-	margin-left:15px;
+	margin-left:1.2%;
 	width: 75px;
 	height: 200px;
 	float: left;
@@ -61,9 +122,9 @@ body{
 }
 
 #ain1p{
-	margin-top: 220px;
+	top: 20%;
 	transform:scale(1.5);
-	margin-left: 255px;
+	margin-left: 2%;
 	width: 145px;
 	height: 200px;
 	float: left;
@@ -73,9 +134,8 @@ body{
 #ainp{
 	z-index: 1;
 	background:;
-	margin-top: 220px;
 	transform:scale(1.5);
-	margin-left: 95px;
+	margin-left: 9.5%;
 	width: 145px;
 	height: 200px;
 	float: left;
@@ -84,9 +144,8 @@ body{
 
 
 #ainip{
-	margin-top: 220px;
 	transform:scale(1.5);
-	margin-left:62px;
+	margin-left:5.2%;
 	width: 55px;
 	height: 200px;
 	float: left;
@@ -95,22 +154,32 @@ body{
 }
 
 #ain1d{
-	margin-top: 400px;
+	margin-top: -4%;
 	transform:scale(.7);
-	margin-left: 250px;
-	width: 100px;
+	width: 115px;
 	height: 200px;
 	float: left;
 
 }
 
 #aind{
+	margin-top: -4%;
 	z-index: 1;
 	background:;
-	margin-top: 400px;
 	transform:scale(.7);
-	margin-left: 10px;
-	width: 100px;
+	width: 115px;
+	height: 200px;
+	float: left;
+
+}
+
+#aindi{
+	margin-left: 2.5%;
+	margin-top: -4%;
+	z-index: 1;
+	background:;
+	transform:scale(.7);
+	width: 37px;
 	height: 200px;
 	float: left;
 
@@ -151,21 +220,31 @@ body{
 
 #dribble{
 	position: absolute;
+	top: 60%;
 	width: 100%;
-	height: 100%;
+	height: 32%;
+
+}
+
+#dribble:hover{
 	animation:bounce4 .8s 3;
-	animation-delay:.5s;
 }
 
 #pivot{
+	left: 164%;
+	top: 35%;
+	background: ;
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	animation:flip 1.5s 2;
-	animation-delay:.5s;
+	width: 82%;
+	height: 38%;
 }
 
-@keyframes flip {
+#pivot:hover{
+	animation:flip1 1.5s 2;
+	
+}
+
+@keyframes flip1 {
   from {
     -webkit-transform: perspective(1700px) rotate3d(0, 1, 0, 0deg);
     transform: perspective(1700px) rotate3d(0, 1, 0, 0deg);
@@ -210,6 +289,75 @@ body{
   }
 }
 
+#dunk{
+	left: 337%;
+	top: 10%;
+	background: ;
+	width: 41.5%;
+	height: 25%;
+	position: absolute;
+}
+
+#dunk:hover{
+	animation: bounceOutDown 1s;
+
+}
+
+
+@keyframes bounceOutDown {
+  10% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+
+  30%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 1000px, 0);
+    transform: translate3d(0, 1000px, 0);
+  }
+}
+
+.bounceOutDown {
+  -webkit-animation-name: bounceOutDown;
+  animation-name: bounceOutDown;
+}
+
+
+
+#left{
+	background:;
+	margin-left: 9%;
+	width: 55%;
+	height: 100%;
+	float: left;
+
+}
+
+#right{
+	background:;
+	width: 30%;
+	height: 100%;
+	margin: auto;
+	float: left;
+}
+
+
+#ains{
+	transform:scale(.52);
+	margin-left: 0px;
+	width: 130px;
+	height: 155px;
+	float: left;
+	
+
+}
+
 
 
 #a{
@@ -235,7 +383,7 @@ body{
 	float: left;
 }
 
-#balllink{
+.play{
 	height: 321px;
 	width: 321px;
 	float: left;
@@ -348,6 +496,305 @@ animation:rotateOut 2s infinite;
 	left: 25px;
 }
 
+#a1{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:bounce .6s infinite;
+	animation-delay:.5s;
+
+}
+
+
+
+
+#a2{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:rotate1 1.5s infinite;
+	animation-delay:.5s;
+}
+
+
+@-webkit-keyframes rotate1 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 1, 0, 1080deg);
+    transform: rotate3d(0, 1, 0, 1080deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate1 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 1, 0, 1080deg);
+    transform: rotate3d(0, 1, 0, 1080deg);
+    opacity: 1;
+  }
+}
+
+
+#a3{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:shake 1.4s infinite;
+	animation-delay:.5s;
+
+}
+
+#a4{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:flip 1.4s infinite;
+	animation-delay:.5s;
+}
+
+@keyframes flip {
+  from {
+    -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(500px) scale3d(.85, .85, .85);
+    transform: perspective(500px) scale3d(.85, .85, .85);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(500px);
+    transform: perspective(500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+#a5{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:slideOutUp 1.2s infinite;
+	animation-delay:.5s;
+
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: visible;
+    -webkit-transform: translate3d(0, -40%, 0);
+    transform: translate3d(0, -40%, 0);
+  }
+}
+
+#a6{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:rollIn 1.7s infinite;
+	animation-delay:.5s;
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 1;
+    -webkit-transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -720deg);
+    transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -720deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#a7{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:wobble 1.2s infinite;
+	animation-delay:.5s;
+
+}
+
+
+@keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    transform: translate3d(-35%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(25%, 0, 0) rotate3d(0, 0, 1, 10deg);
+    transform: translate3d(25%, 0, 0) rotate3d(0, 0, 1, 10deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -7deg);
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -7deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, 10deg);
+    transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, 10deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -8deg);
+    transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -8deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+#a8{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:bounce2 1.2s infinite;
+	animation-delay:.5s;
+}
+
+#a10{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:rotate2 .7s infinite;
+	animation-delay:.5s;
+
+}
+
+@-webkit-keyframes rotate2 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(1, 0, 0, 1440deg);
+    transform: rotate3d(1, 0, 0, 1440deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(1, 0, 0, 1440deg);
+    transform: rotate3d(1, 0, 0, 1440deg);
+    opacity: 1;
+  }
+}
+
+#a9{
+	background: ;
+	margin-left: -50px;
+	margin-top: 0px;
+	width: 120px;
+	height: 170px;
+	float: left;
+	animation:bounce3 1.3s infinite;
+	animation-delay:.5s;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 1;
+    -webkit-transform: scale3d(.2, .2, .2);
+    transform: scale3d(.2, .2, .2);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
 
 .ascircle{
 	margin: auto;
@@ -372,7 +819,7 @@ animation:rotateOut 2s infinite;
 
 .ahalfline2{
 	top:-1.35in;
-	left: .44in;
+	left: 43px;
 	width: 6.8pt;
 	height: 1.37in;
 	background: black;
@@ -742,7 +1189,7 @@ animation:rotateOut 2s infinite;
 }
 
 .mcircle{
-	top: -400px;
+	top: -403px;
 	border-radius:.8in; 
 	width:1.27in;
 	height:1.27in;
@@ -801,9 +1248,9 @@ animation:rotateOut 2s infinite;
 	position: relative;
 	background: #DE6100;
 	height: 1.9in;
-	width: .32in;
+	width: .34in;
 	top: -200px;
-	left: -30px;
+	left: -31px;
 }
 
 .cover1{
@@ -988,7 +1435,7 @@ animation:rotateOut 2s infinite;
 }
 
 .trectangle1{
-	top: 0px;
+	top: -2px;
 	position: relative;
 	width: 1.27in;
 	height:.35in;
@@ -1046,7 +1493,7 @@ animation:rotateOut 2s infinite;
 	left: 88px;
 	position: relative;
 	width: .35in;
-	height: 113px;
+	height: 137px;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
 	border-right:7pt solid black;
@@ -1056,7 +1503,7 @@ animation:rotateOut 2s infinite;
 .vrectangle4{
 	z-index: 1;
 	top: -252px;
-	left: -232px;
+	left: -237px;
 	position: relative;
 	width: .35in;
 	height: 137px;
@@ -1116,7 +1563,7 @@ animation:rotateOut 2s infinite;
 
 .xrectangle2{
 	top: -113px;
-	left: 88px;
+	left: 89px;
 	position: relative;
 	width: .35in;
 	height: 16px;
@@ -1170,7 +1617,7 @@ animation:rotateOut 2s infinite;
 
 .yrectangle2{
 	top: -288px;
-	left: 88px;
+	left: 89px;
 	position: relative;
 	width: .35in;
 	height: 42px;
@@ -1265,7 +1712,6 @@ animation:rotateOut 2s infinite;
 	border-right: 7pt solid black;
 	border-bottom: 7pt solid black;
 }
-
 .tworectangle{
 	top: 148px;
 	position: relative;
@@ -1279,10 +1725,10 @@ animation:rotateOut 2s infinite;
 
 .twocircle{
 	top: -52px;
-	left: 65px;
+	left: 52px;
 	border-radius:0in 3in 3in 0in; 
-	width:56.4px;
-	height:1.27in;
+	width:69.6px;
+	height:139.2px;
 	position: relative;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
@@ -1292,9 +1738,9 @@ animation:rotateOut 2s infinite;
 }
 
 .tworectangle2{
-	top: -192px;
+	top: -209px;
 	position: relative;
-	width: 56px;
+	width: 42px;
 	height:.35in;
 	border-top: 7pt solid black;
 	border-left: 7pt solid black;  
@@ -1303,13 +1749,14 @@ animation:rotateOut 2s infinite;
 }
 
 .twoline{
-	top: -201px;
+	top: -218px;
 	left: 27px;
 	width: 100px;
 	height: 6.8pt;
 	background: black;
 	position: relative;
 }
+
 
 #threeflip{
 	transform: scaleX(-1);
@@ -1537,6 +1984,29 @@ animation:rotateOut 2s infinite;
 	border-bottom: 7pt solid black;
 }
 
+.qucircle{
+	top: -52px;
+	left: 65px;
+	border-radius:0in 3in 3in 0in; 
+	width:56.4px;
+	height:1.27in;
+	position: relative;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
+}
+
+.quline{
+	top: -201px;
+	left: 27px;
+	width: 100px;
+	height: 6.8pt;
+	background: black;
+	position: relative;
+}
+
 .emarkrectangle{
 	left: 44px;
 	top: -52px;
@@ -1547,4 +2017,44 @@ animation:rotateOut 2s infinite;
 	border-left: 7pt solid black;  
 	border-right: 7pt solid black;
 	border-bottom: 7pt solid black;
+}
+
+.comma{
+	left: 44px;
+	top: 148px;
+	border-radius:0in 0in 3in 0in; 
+	width:.35in;
+	height:.35in;
+	position: relative;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
+}
+
+.quota{
+	border-radius:0in 0in 3in 0in; 
+	width:.35in;
+	height:.35in;
+	position: relative;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
+}
+
+.quota1{
+	top: -0px;
+	left: .7in;
+	border-radius:0in 0in 3in 0in; 
+	width:.35in;
+	height:.35in;
+	position: absolute;
+	border-top: 7pt solid black;
+	border-left: 7pt solid black;  
+	border-right: 7pt solid black;
+	border-bottom: 7pt solid black;
+	 
 }
