@@ -1,0 +1,60 @@
+body {
+background-color: #000000;
+}
+
+h1 {
+font-family: Helvetica, sans-serif;
+
+}
+
+#draggable {
+  border-color: #ffffff;
+
+}
+
+.ui-draggable {
+  position:relative;
+  z-index:0;
+}
+
+
+#words{
+	font-family: Times;
+
+	color:white;
+	font-size: 36px;
+	text-align: center;
+	width:400px;
+	height: 200px;
+	margin:auto;
+	float:center;
+
+}
+
+#space{
+	width:1460px;
+	height:200px;
+}
+
+#pointerleft {
+
+	height:640px;
+	max-width: 70px;
+	padding-right:20px;
+	float:left;
+	margin:auto;
+	position:fixed;
+
+}
+
+
+
+
+#pointerright {
+vertical-align: right;
+	max-width: 70px;
+	float:right;
+	padding-right:10px;
+		position:fixed;
+
+}

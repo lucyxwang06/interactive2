@@ -1,0 +1,52 @@
+#main {
+	
+	width:500px;
+	top:100px;
+	left:450px;
+	position: fixed;
+
+
+}
+
+#arm1 {
+	max-width:100px;
+	padding-top:400px;
+	top:580px;
+	padding-left:-10px;
+
+}
+
+#yay{
+	top:200px;
+	left:400px;
+	z-index:-1;
+	width:700px;
+}
+
+#main2 {
+	
+	min-width:1000px;
+	top:450px;
+	left:800px;
+	position: fixed;
+
+
+}
+p{
+	font-size: 230px;
+	font-family: times;
+	line-height: 220px;
+	padding-left: 25px;
+
+}
+
+
+#main3 {
+	
+	min-width:1000px;
+	top:150px;
+	left:300px;
+	position: fixed;
+
+
+}
