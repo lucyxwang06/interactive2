@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	position: relative;
+}
+
+.canvas:hover .s41 {
+	opacity: 1;
+	animation: none;
+}
+
+.canvas:hover .s42 {
+	opacity: 1;
+	animation: none;
+}
+
+.canvas:hover .s43 {
+	opacity: 1;
+	animation: none;
+}
+
+.canvas:hover .s1 {
+	background: black;
+
+}
+
+.canvas:hover .s2 {
+	background: black;
+}
+
+.canvas:hover .s3 {
+	background: black;
+}
+
+.s1{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	animation:flash 1s infinite;
+}
+
+
+.s2{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	animation:flash .5s infinite;
+}
+
+
+.s3{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	animation:flash .7s infinite;
+}
+
+.s41{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	animation:flash 1s infinite;
+}
+
+.s42{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	animation:flash .5s infinite;
+}
+
+.s43{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	animation:flash .7s infinite;
+}
+
+
+@-webkit-keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
