@@ -468,10 +468,24 @@ h2{
 	width: 400px;
 	height: 340px;
 	z-index: 1;
-	margin-top:12px; 
-	margin-left: 25px;
+	margin-top:20px; 
+	margin-left: 45px;
 	position:absolute;
 }
+
+.vaderlabel{
+ font-family: 'Special Elite', cursive;
+  font-size: 6px;
+  letter-spacing: .4px;
+  word-spacing: .5px;
+  line-height: 8px;
+  color: black;
+  width: 65px;
+  height: 40px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 160px;
+  }
 
 #pot{
 	height: 80px;
@@ -481,6 +495,7 @@ h2{
 	margin-left: 400px;
 	margin-top: 100px;
 }
+
 .potlabel{
  font-family: 'Special Elite', cursive;
   font-size: 6px;
@@ -493,7 +508,7 @@ h2{
   position: absolute;
   margin-top: 200px;
   margin-left: 425px;
-  )
+  }
 
 
 
