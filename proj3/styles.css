@@ -44,6 +44,7 @@ body {
   transform: rotateY(90deg) translateZ(432.16px);
   background: #D2DFDC;
 }
+
 .c {
   transform: rotateY(180deg) translateZ(432.16px);
   background: #D2DFDC;
@@ -53,12 +54,81 @@ body {
   background: #D2DFDC;
 }
 
-#tide{
-	width: 450px;
-	height: 250px;
-	margin-left: 190px;
-	margin-top: 20px;
+.lob{
+	font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  color: red;
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  opacity: 0;
+
 }
+.lob:hover{
+	opacity: 1;
+}
+
+.l{
+	margin-top: 15px;
+	margin-left: 180px;
+}
+
+.o{
+	margin-top: 22px;
+	margin-left: 283px;
+}
+
+.blob{
+	margin-top: 24px;
+	margin-left: 338px;
+}
+
+.s{
+	margin-top: 23px;
+	margin-left: 488px;
+}
+
+.t{
+	margin-top: 58px;
+	margin-left: 60px;
+}
+
+.e{
+	margin-top: 68px;
+	margin-left: 230px;
+}
+
+.r{
+	margin-top: 71px;
+	margin-left: 435px;
+}
+
+.s1{
+	margin-top: 67px;
+	margin-left: 598px;
+}
+
+.r1{
+	margin-top: 111px;
+	margin-left: 117px;
+}
+
+.u{
+	margin-top: 117px;
+	margin-left: 386px;
+}
+
+.l1{
+	margin-top: 118px;
+	margin-left: 543px;
+}
+
+.e1{
+	margin-top: 162px;
+	margin-left: 225px;
+}
+
+
 
 .about{
 	font-family: 'Special Elite', cursive;
@@ -75,24 +145,27 @@ body {
   top: 35px;
 }
 
+.blue {
+	opacity: 1;
+}
+
+.about:hover > .blue {
+	color: blue;
+}
 
 .next, .prev {
-	width: 20px;
+	width: 10px;
 	height: 20px;
-  color: #444;
   position: absolute;
   top: 300px;
   cursor: pointer;
-  background: #CCC;
   border-radius: 5px;
-  border-top: 1px solid #FFF;
-  box-shadow: 0 5px 0 #999;
-  transition: box-shadow 0.1s, top 0.1s;
-}
-.next:hover, .prev:hover { color: #000; }
+  }
+
+.next:hover, .prev:hover { color: ; }
 .next:active, .prev:active {
   top: 304px;
-  box-shadow: 0 1px 0 #999;
+ 
 }
 .next { right: 5em; }
 .prev { left: 5em; }
@@ -100,7 +173,7 @@ body {
 
 
 h2{
-	font-family: felt-tip-roman, sans-serif;
+	font-family: 'Special Elite', cursive;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 75pt;
@@ -110,77 +183,14 @@ h2{
 	margin-top: -2px;
 	color: black;
 }
-#indoctrination{
-	margin-top: 15px;
-	width: 700px;
-	height: 370px;
-	position: absolute;
-	font-family: felt-tip-roman, sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 25pt;
-	text-align: center;
-	color: black;
-
-}
-
-.nut{
-	cursor: move;
-	position: absolute;
-	margin-top: 270px;
-	margin-left: 70px;
-	width: 30px;
-	height: 30px;
-	background: ;
-	&:hover {
-    background: darken(gray, 5);
-  }
-}
-
-.nut2{
-	cursor: move;
-	position: absolute;
-	margin-top: 290px;
-	margin-left: 100px;
-	width: 50px;
-	height: 50px;
-	background: ;
-	&:hover {
-    background: darken(gray, 5);
-  }
-}
-
-.nut3{
-	cursor: move;
-	position: absolute;
-	margin-top: 230px;
-	margin-left: 140px;
-	width: 60px;
-	height: 60px;
-	background: ;
-	&:hover {
-    background: darken(gray, 5);
-  }
-}
-
-.nut4{
-	cursor: move;
-	position: absolute;
-	margin-top: 240px;
-	margin-left: 100px;
-	width: 60px;
-	height: 60px;
-	background: ;
-	&:hover {
-    background: darken(gray, 5);
-  }
-}
 
 
 
 .rock{
 	position: absolute;
+	
 }
+
 
 .one{
 	width: 50px;
@@ -188,6 +198,10 @@ h2{
 	background: ;
 	margin-left: 80px;
 	margin-top: 200px;
+}
+
+.one:hover{
+	transform:scale(1.4);
 }
 
 .two{
@@ -198,6 +212,10 @@ h2{
 	margin-top: 60px;
 }
 
+.two:hover{
+	transform:scale(1.7);
+}
+
 .three{
 	width: 50px;
 	height: 55px;
@@ -206,12 +224,20 @@ h2{
 	margin-top: 140px;
 }
 
+.three:hover{
+	transform:scale(.4);
+}
+
 .four{
 	width: 50px;
 	height: 55px;
 	background: ;
-	margin-left: 500px;
+	margin-left: 490px;
 	margin-top: 240px;
+}
+
+.four:hover{
+	transform:scale(2);
 }
 
 .five{
@@ -222,12 +248,20 @@ h2{
 	margin-top: 320px;
 }
 
+.five:hover{
+	transform:scale(.1);
+}
+
 .six{
 	width: 50px;
 	height: 55px;
 	background: ;
 	margin-left: 480px;
 	margin-top: 20px;
+}
+
+.six:hover{
+	transform:scale(.2);
 }
 
 .seven{
@@ -238,14 +272,287 @@ h2{
 	margin-top: 70px;
 }
 
-.tooltip {
-	position: relative;
-	color: #ccc;
+.seven:hover{
+	transform:scale(1.2);
+}
 
-	-webkit-transition: all 500ms ease-in-out;	
+.eight{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 30px;
+	margin-top: 120px;
+}
+
+.eight:hover{
+	transform:scale(2.3);
+}
+
+.nine{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 110px;
+	margin-top: 120px;
+}
+
+.nine:hover{
+	transform:scale(.4);
+}
+
+.ten{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 225px;
+	margin-top: 232px;
+}
+
+.ten:hover{
+	transform:scale(.9);
+}
+
+.eleven{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 593px;
+	margin-top: 172px;
+}
+
+.eleven:hover{
+	transform:scale(1.6);
+}
+
+.twelve{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 107px;
+	margin-top: 282px;
+}
+
+.twelve:hover{
+	transform:scale(2.1);
+}
+
+.thirteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 27px;
+	margin-top: 22px;
+}
+
+.thirteen:hover{
+	transform:scale(1.5);
+}
+
+.fourteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 238px;
+	margin-top: 162px;
+}
+
+.fourteen:hover{
+	transform:scale(.1);
+}
+
+.fourteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 238px;
+	margin-top: 162px;
+}
+
+.fourteen:hover{
+	transform:scale(.1);
+}
+
+.fifteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 138px;
+	margin-top: 22px;
+}
+
+.fifteen:hover{
+	transform:scale(.4);
+}
+
+.sixteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 438px;
+	margin-top: 82px;
+}
+
+.sixteen:hover{
+	transform:scale(.6);
+}
+
+.seventeen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 530px;
+	margin-top: 92px;
+}
+
+.seventeen:hover{
+	transform:scale(2);
+}
+
+.eighteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 560px;
+	margin-top: 252px;
+}
+
+.eighteen:hover{
+	transform:scale(.8);
+}
+
+.nineteen{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 400px;
+	margin-top: 172px;
+}
+
+.nineteen:hover{
+	transform:scale(2.2);
+}
+
+.twenty{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 500px;
+	margin-top: 148px;
+}
+
+.twenty:hover{
+	transform:scale(.2);
 }
 
 
+.twentyone{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 610px;
+	margin-top: 40px;
+}
+
+.twentyone:hover{
+	transform:scale(1.8);
+}
+
+.twentytwo{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 640px;
+	margin-top: 220px;
+}
+
+.twentytwo:hover{
+	transform:scale(.3);
+}
+
+.twentythree{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 210px;
+	margin-top: 290px;
+}
+
+.twentythree:hover{
+	background-image: url(images/lobster3.png);
+	transform:scale(2.5);
+}
+
+.twentyfour{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 10px;
+	margin-top: 290px;
+}
+
+.twentyfour:hover{
+	transform:scale(.5);
+}
+
+.twentyfive{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 160px;
+	margin-top: 190px;
+}
+
+.twentyfive:hover{
+	transform:scale(1.6);
+}
+
+.twentysix{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 290px;
+	margin-top: 290px;
+}
+
+.twentysix:hover{
+	transform:scale(.6);
+}
+
+.twentyseven{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 340px;
+	margin-top: 240px;
+}
+
+.twentyseven:hover{
+	transform:scale(1.8);
+}
+
+.twentyeight{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 360px;
+	margin-top: 30px;
+}
+
+.twentynine:hover{
+	transform:scale(1.8);
+}
+
+.twentynine{
+	width: 50px;
+	height: 55px;
+	background: ;
+	margin-left: 410px;
+	margin-top: 250px;
+}
+
+.twentynine:hover{
+	transform:scale(.4);
+}
 
 .moonrocks .moonrocks-text { 
 	background: black;
@@ -297,6 +604,7 @@ h2{
 
 .moonrocks2:hover .moonrocks2-text {
 	opacity: 1;
+	z-index: 1;
 }
 
 .moonrocks3 .moonrocks3-text { 
@@ -366,6 +674,7 @@ h2{
 	opacity: 0;
 	text-align: center;
 	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
 
 }
 
@@ -392,6 +701,7 @@ h2{
 	opacity: 0;
 	text-align: center;
 	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
 
 }
 
@@ -418,6 +728,7 @@ h2{
 	opacity: 0;
 	text-align: center;
 	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
 
 }
 
@@ -429,6 +740,585 @@ h2{
 	opacity: 1;
 }
 
+.moonrocks8 .moonrocks8-text { 
+	background: black;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 5px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks8:hover {
+	color: black;
+}
+
+.moonrocks8:hover .moonrocks8-text {
+	opacity: 1;
+}
+
+.moonrocks9 .moonrocks9-text { 
+	background: black;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 105px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks9:hover {
+	color: black;
+}
+
+.moonrocks9:hover .moonrocks9-text {
+	opacity: 1;
+}
+
+.moonrocks10 .moonrocks10-text { 
+	background: black;
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 250px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1
+
+}
+
+.moonrocks10:hover {
+	color: black;
+}
+
+.moonrocks10:hover .moonrocks10-text {
+	opacity: 1;
+}
+
+.moonrocks11 .moonrocks11-text { 
+	background: black;
+	position: absolute;
+	margin-top: 212px;
+	margin-left: 620px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
+
+}
+
+.moonrocks11:hover {
+	color: black;
+}
+
+.moonrocks11:hover .moonrocks11-text {
+	opacity: 1;
+}
+
+.moonrocks12 .moonrocks12-text { 
+	background: black;
+	position: absolute;
+	margin-top: 342px;
+	margin-left: 135px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks12:hover {
+	color: black;
+}
+
+.moonrocks12:hover .moonrocks12-text {
+	opacity: 1;
+}
+
+.moonrocks13 .moonrocks13-text { 
+	background: black;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 50px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks13:hover {
+	color: black;
+}
+
+.moonrocks13:hover .moonrocks13-text {
+	opacity: 1;
+}
+
+.moonrocks14 .moonrocks14-text { 
+	background: black;
+	position: absolute;
+	margin-top: 154px;
+	margin-left: 217px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks14:hover {
+	color: black;
+}
+
+.moonrocks14:hover .moonrocks14-text {
+	opacity: 1;
+}
+
+.moonrocks15 .moonrocks15-text { 
+	background: black;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 100px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks15:hover {
+	color: black;
+}
+
+.moonrocks15:hover .moonrocks15-text {
+	opacity: 1;
+}
+
+.moonrocks16 .moonrocks16-text { 
+	background: black;
+	position: absolute;
+	margin-top: 82px;
+	margin-left: 488px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
+
+}
+
+.moonrocks16:hover {
+	color: black;
+}
+
+.moonrocks16:hover .moonrocks16-text {
+	opacity: 1;
+}
+
+.moonrocks17 .moonrocks17-text { 
+	background: black;
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 553px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
+
+}
+
+.moonrocks17:hover {
+	color: black;
+}
+
+.moonrocks17:hover .moonrocks17-text {
+	opacity: 1;
+}
+
+.moonrocks18 .moonrocks18-text { 
+	background: black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 560px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks18:hover {
+	color: black;
+}
+
+.moonrocks18:hover .moonrocks18-text {
+	opacity: 1;
+}
+
+.moonrocks19 .moonrocks19-text { 
+	background: black;
+	position: absolute;
+	margin-top: 142px;
+	margin-left: 360px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks19:hover {
+	color: black;
+}
+
+.moonrocks19:hover .moonrocks19-text {
+	opacity: 1;
+}
+
+.moonrocks20 .moonrocks20-text { 
+	background: black;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 430px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
+
+}
+
+.moonrocks20:hover {
+	color: black;
+}
+
+.moonrocks20:hover .moonrocks20-text {
+	opacity: 1;
+}
+
+.moonrocks21 .moonrocks21-text { 
+	width: 90px;
+	background: black;
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 600px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
+
+}
+
+.moonrocks21:hover {
+	color: black;
+}
+
+.moonrocks21:hover .moonrocks21-text {
+	opacity: 1;
+}
+
+.moonrocks22 .moonrocks22-text { 
+	background: black;
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 595px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+	z-index: 1;
+
+}
+
+.moonrocks22:hover {
+	color: black;
+}
+
+.moonrocks22:hover .moonrocks22-text {
+	opacity: 1;
+}
+
+.moonrocks23 .moonrocks23-text { 
+	background: black;
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 145px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks23:hover {
+	color: black;
+}
+
+.moonrocks23:hover .moonrocks23-text {
+	opacity: 1;
+}
+
+.moonrocks24 .moonrocks24-text { 
+	background: black;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 10px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks24:hover {
+	color: black;
+}
+
+.moonrocks24:hover .moonrocks24-text {
+	opacity: 1;
+}
+
+.moonrocks25 .moonrocks25-text { 
+	background: black;
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 160px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks25:hover {
+	color: black;
+}
+
+.moonrocks25:hover .moonrocks25-text {
+	opacity: 1;
+}
+
+.moonrocks26 .moonrocks26-text { 
+	background: black;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 280px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks26:hover {
+	color: black;
+}
+
+.moonrocks26:hover .moonrocks26-text {
+	opacity: 1;
+}
+
+.moonrocks27 .moonrocks27-text { 
+	background: black;
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 300px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks27:hover {
+	color: black;
+}
+
+.moonrocks27:hover .moonrocks27-text {
+	opacity: 1;
+}
+
+.moonrocks28 .moonrocks28-text { 
+	background: black;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 260px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks28:hover {
+	color: black;
+}
+
+.moonrocks28:hover .moonrocks28-text {
+	opacity: 1;
+}
+
+.moonrocks29 .moonrocks29-text { 
+	background: black;
+	position: absolute;
+	margin-top: 225px;
+	margin-left: 410px;
+	color: white;
+	font-size: 8px;
+	padding: 6px;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: .4px;
+	word-spacing: 1px;
+	line-height: 10px;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: all 400ms ease-in-out;
+
+}
+
+.moonrocks29:hover {
+	color: black;
+}
+
+.moonrocks29:hover .moonrocks29-text {
+	opacity: 1;
+}
 
 
 
@@ -448,24 +1338,10 @@ h2{
 
 
 
-#vader{
-	position: absolute;
-	height: 150px;
-	width: 60px;
-	left: 100px;
-	top: 80px;
-	z-index: .5;
-
-}
-
-#vader:hover{
-	cursor: pointer;
-}
-
 #detailvader{
 
 	opacity: 1;
-	width: 400px;
+	width: 200px;
 	height: 340px;
 	z-index: 1;
 	margin-top:20px; 
@@ -508,6 +1384,124 @@ h2{
   position: absolute;
   margin-top: 200px;
   margin-left: 425px;
+  }
+
+ #glove{
+	height: 110px;
+	width: 90px;
+	position:absolute;
+	
+	margin-left: 540px;
+	margin-top: 160px;
+}
+
+.glovelabel{
+ font-family: 'Special Elite', cursive;
+  font-size: 6px;
+  letter-spacing: .4px;
+  word-spacing: .5px;
+  line-height: 8px;
+  color: black;
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  margin-top: 282px;
+  margin-left: 550px;
+  }
+
+#lobster{
+	height: 110px;
+	width: 100px;
+	position:absolute;
+	margin-left: 230px;
+	margin-top: 60px;
+
+}
+
+.lobsterlabel{
+ font-family: 'Special Elite', cursive;
+  font-size: 6px;
+  letter-spacing: .4px;
+  word-spacing: .5px;
+  line-height: 8px;
+  color: black;
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 250px;
+  }
+
+
+
+ #tape{
+	height: 110px;
+	width: 90px;
+	position:absolute;
+	
+	margin-left: 395px;
+	margin-top: 240px;
+}
+
+.tapelabel{
+ font-family: 'Special Elite', cursive;
+  font-size: 6px;
+  letter-spacing: .4px;
+  word-spacing: .5px;
+  line-height: 8px;
+  color: black;
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  margin-top: 312px;
+  margin-left: 405px;
+  }
+
+
+ #thing{
+	height: 160px;
+	width: 90px;
+	position:absolute;
+	
+	margin-left: 200px;
+	margin-top: 200px;
+}
+
+.thinglabel{
+ font-family: 'Special Elite', cursive;
+  font-size: 6px;
+  letter-spacing: .4px;
+  word-spacing: .5px;
+  line-height: 8px;
+  color: black;
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  margin-top: 262px;
+  margin-left: 295px;
+  }
+
+   #box{
+	height: 160px;
+	width: 90px;
+	position:absolute;
+	
+	margin-left: 525px;
+	margin-top: 20px;
+}
+
+.boxlabel{
+ font-family: 'Special Elite', cursive;
+  font-size: 6px;
+  letter-spacing: .4px;
+  word-spacing: .5px;
+  line-height: 8px;
+  color: black;
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 605px;
   }
 
 
