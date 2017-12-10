@@ -1,7 +1,7 @@
 body{
 	background:#DE6100;
 	margin: auto;
-	width: 9600px;
+	width: 9280px;
 	overflow-y:hidden ;
 
 }
@@ -22,6 +22,7 @@ audio{
 	height: 653px;
 	width: 1280px;
 	float: left;
+	padding-right: 150px;
 }
 
 .containerp{
@@ -41,7 +42,7 @@ audio{
 }
 
 .container1{
-	margin-left: 440px;
+	margin-left: -30px;
 	background: ;
 	height: 653px;
 	width: 1280px;
@@ -231,7 +232,7 @@ audio{
 }
 
 #pivot{
-	left: 164%;
+	left: 334%;
 	top: 35%;
 	background: ;
 	position: absolute;
@@ -290,7 +291,7 @@ audio{
 }
 
 #dunk{
-	left: 337%;
+	left: 503%;
 	top: 10%;
 	background: ;
 	width: 41.5%;
@@ -477,7 +478,7 @@ animation:rotateOut 2s infinite;
 	border-left: 3.8pt solid transparent;  
 	border-right: 3.8pt solid black;
 	border-bottom: 3.8pt solid black;
-	top: -68px;
+	top: -67px;
 	left: -24px;
 }
 
@@ -492,8 +493,8 @@ animation:rotateOut 2s infinite;
 	border-left: 3.8pt solid black;  
 	border-right: 3.8pt solid transparent;
 	border-bottom: 3.8pt solid black;
-	top: -119px;
-	left: 25px;
+	top: -118px;
+	left: 24px;
 }
 
 #a1{
@@ -819,7 +820,7 @@ animation:rotateOut 2s infinite;
 
 .ahalfline2{
 	top:-1.35in;
-	left: 43px;
+	left: 44px;
 	width: 6.8pt;
 	height: 1.37in;
 	background: black;
@@ -857,7 +858,7 @@ animation:rotateOut 2s infinite;
 	position: relative;
 	width: .35in;
 	height: 1.9in;
-	border-top: 7pt solid black;
+	border-top: 6pt solid black;
 	border-left: 7pt solid black;  
 	border-right: 7pt solid black;
 	border-bottom: 7pt solid black;
@@ -1388,13 +1389,14 @@ animation:rotateOut 2s infinite;
 	border-left: 7pt solid black;  
 	border-right: 7pt solid black;
 	border-bottom: 7pt solid black;
+	margin-top: -1pt;
 	 
 }
 
 
 .ssquare{
 	position: relative;
-	top: -140px;
+	top: -139px;
 	left: 66px;
 	width: .35in;
 	height: .33in;
@@ -1406,7 +1408,7 @@ animation:rotateOut 2s infinite;
 
 .ssquare2{
 	position: relative;
-	top: -39px;
+	top: -41px;
 	left: 22px;
 	width: .35in;
 	height: .33in;
@@ -1417,7 +1419,7 @@ animation:rotateOut 2s infinite;
 }
 
 .sline{
-	top: -199px;
+	top: -198px;
 	left: 10px;
 	width: 100px;
 	height: 6.8pt;
@@ -1426,7 +1428,7 @@ animation:rotateOut 2s infinite;
 }
 
 .sline2{
-	top: -97px;
+	top: -99px;
 	left: 30px;
 	width: 100px;
 	height: 6.8pt;
